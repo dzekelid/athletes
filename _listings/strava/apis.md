@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28739-stra
 x-kinRank: "7"
 x-alexaRank: "887"
 tags: Athletes
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/athletes/master/_listings/strava/apis.md
 specificationVersion: "0.14"
 apis:
@@ -36,6 +36,48 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/athletes/master/_listings/strava/athlete-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/athletes/master/_listings/strava/athlete-get-openapi.md
+- name: Strava API v3 - Update Athlete
+  x-api-slug: athlete-put
+  description: Update the currently authenticated athlete.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28739-strava.jpg
+  humanURL: ""
+  baseURL: https://www.strava.com//api/v3
+  tags: Mobile, Technology, internet, Sports, Athletes, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/athletes/master/_listings/strava/athlete-put-openapi.md
+- name: Strava API v3 - List Athlete Activities
+  x-api-slug: athleteactivities-get
+  description: Returns the activities of an athlete for a specific identifier.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28739-strava.jpg
+  humanURL: ""
+  baseURL: https://www.strava.com//api/v3
+  tags: Mobile, Technology, internet, Sports, Athletes, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/athletes/master/_listings/strava/athleteactivities-get-openapi.md
+- name: Strava API v3 - List Athlete Clubs
+  x-api-slug: athleteclubs-get
+  description: Returns a list of the clubs whose membership includes the authenticated
+    athlete.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28739-strava.jpg
+  humanURL: ""
+  baseURL: https://www.strava.com//api/v3
+  tags: Mobile, Technology, internet, Sports, Athletes, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/athletes/master/_listings/strava/athleteclubs-get-openapi.md
+- name: Strava API v3 - List Athlete Routes
+  x-api-slug: athletesidroutes-get
+  description: Returns a list of the routes created by the authenticated athlete using
+    their athlete ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28739-strava.jpg
+  humanURL: ""
+  baseURL: https://www.strava.com//api/v3
+  tags: Mobile, Technology, internet, Sports, Athletes, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/athletes/master/_listings/strava/athletesidroutes-get-openapi.md
 - name: Strava API v3 - Get Athlete Stats
   x-api-slug: athletesidstats-get
   description: Returns the activity stats of an athlete.
@@ -60,6 +102,180 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/athletes/master/_listings/strava/athlete-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/athletes/master/_listings/strava/athlete-get-openapi.md
+- name: Strava API v3 - Update Athlete
+  x-api-slug: athlete-put
+  description: Update the currently authenticated athlete.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28739-strava.jpg
+  humanURL: ""
+  baseURL: https://www.strava.com//api/v3
+  tags: Mobile, Technology, internet, Sports, Athletes, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/athletes/master/_listings/strava/athlete-put-openapi.md
+- name: Strava API v3 - List Athlete Activities
+  x-api-slug: athleteactivities-get
+  description: Returns the activities of an athlete for a specific identifier.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28739-strava.jpg
+  humanURL: ""
+  baseURL: https://www.strava.com//api/v3
+  tags: Mobile, Technology, internet, Sports, Athletes, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/athletes/master/_listings/strava/athleteactivities-get-openapi.md
+- name: Strava API v3 - List Athlete Clubs
+  x-api-slug: athleteclubs-get
+  description: Returns a list of the clubs whose membership includes the authenticated
+    athlete.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28739-strava.jpg
+  humanURL: ""
+  baseURL: https://www.strava.com//api/v3
+  tags: Mobile, Technology, internet, Sports, Athletes, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/athletes/master/_listings/strava/athleteclubs-get-openapi.md
+- name: Strava API v3 - List Athlete Routes
+  x-api-slug: athletesidroutes-get
+  description: Returns a list of the routes created by the authenticated athlete using
+    their athlete ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28739-strava.jpg
+  humanURL: ""
+  baseURL: https://www.strava.com//api/v3
+  tags: Mobile, Technology, internet, Sports, Athletes, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/athletes/master/_listings/strava/athletesidroutes-get-openapi.md
+- name: Strava API v3 - List Athlete Routes
+  x-api-slug: athletesidroutes-get
+  description: Returns a list of the routes created by the authenticated athlete using
+    their athlete ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28739-strava.jpg
+  humanURL: ""
+  baseURL: https://www.strava.com//api/v3
+  tags: Mobile, Technology, internet, Sports, Athletes, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/athletes/master/_listings/strava/athletesidroutes-get-openapi.md
+- name: Strava API v3 - List Athlete Routes
+  x-api-slug: athletesidroutes-get
+  description: Returns a list of the routes created by the authenticated athlete using
+    their athlete ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28739-strava.jpg
+  humanURL: ""
+  baseURL: https://www.strava.com//api/v3
+  tags: Mobile, Technology, internet, Sports, Athletes, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/athletes/master/_listings/strava/athletesidroutes-get-openapi.md
+- name: Strava API v3 - List Athlete Clubs
+  x-api-slug: athleteclubs-get
+  description: Returns a list of the clubs whose membership includes the authenticated
+    athlete.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28739-strava.jpg
+  humanURL: ""
+  baseURL: https://www.strava.com//api/v3
+  tags: Mobile, Technology, internet, Sports, Athletes, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/athletes/master/_listings/strava/athleteclubs-get-openapi.md
+- name: Strava API v3 - List Athlete Clubs
+  x-api-slug: athleteclubs-get
+  description: Returns a list of the clubs whose membership includes the authenticated
+    athlete.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28739-strava.jpg
+  humanURL: ""
+  baseURL: https://www.strava.com//api/v3
+  tags: Mobile, Technology, internet, Sports, Athletes, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/athletes/master/_listings/strava/athleteclubs-get-openapi.md
+- name: Strava API v3 - List Athlete Activities
+  x-api-slug: athleteactivities-get
+  description: Returns the activities of an athlete for a specific identifier.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28739-strava.jpg
+  humanURL: ""
+  baseURL: https://www.strava.com//api/v3
+  tags: Mobile, Technology, internet, Sports, Athletes, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/athletes/master/_listings/strava/athleteactivities-get-openapi.md
+- name: Strava API v3 - List Athlete Activities
+  x-api-slug: athleteactivities-get
+  description: Returns the activities of an athlete for a specific identifier.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28739-strava.jpg
+  humanURL: ""
+  baseURL: https://www.strava.com//api/v3
+  tags: Mobile, Technology, internet, Sports, Athletes, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/athletes/master/_listings/strava/athleteactivities-get-openapi.md
+- name: Strava API v3 - Update Athlete
+  x-api-slug: athlete-put
+  description: Update the currently authenticated athlete.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28739-strava.jpg
+  humanURL: ""
+  baseURL: https://www.strava.com//api/v3
+  tags: Mobile, Technology, internet, Sports, Athletes, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/athletes/master/_listings/strava/athlete-put-openapi.md
+- name: Strava API v3 - Update Athlete
+  x-api-slug: athlete-put
+  description: Update the currently authenticated athlete.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28739-strava.jpg
+  humanURL: ""
+  baseURL: https://www.strava.com//api/v3
+  tags: Mobile, Technology, internet, Sports, Athletes, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/athletes/master/_listings/strava/athlete-put-openapi.md
+- name: Strava API v3 - Get Authenticated Athlete
+  x-api-slug: athlete-get
+  description: Returns the currently authenticated athlete.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28739-strava.jpg
+  humanURL: ""
+  baseURL: https://www.strava.com//api/v3
+  tags: Mobile, Technology, internet, Sports, Athletes, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/athletes/master/_listings/strava/athlete-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/athletes/master/_listings/strava/athlete-get-openapi.md
+- name: Strava API v3 - Get Authenticated Athlete
+  x-api-slug: athlete-get
+  description: Returns the currently authenticated athlete.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28739-strava.jpg
+  humanURL: ""
+  baseURL: https://www.strava.com//api/v3
+  tags: Mobile, Technology, internet, Sports, Athletes, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/athletes/master/_listings/strava/athlete-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/athletes/master/_listings/strava/athlete-get-openapi.md
+- name: Strava API v3 - Get Athlete Stats
+  x-api-slug: athletesidstats-get
+  description: Returns the activity stats of an athlete.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28739-strava.jpg
+  humanURL: ""
+  baseURL: https://www.strava.com//api/v3
+  tags: Mobile, Technology, internet, Sports, Athletes, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/athletes/master/_listings/strava/athletesidstats-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/athletes/master/_listings/strava/athletesidstats-get-openapi.md
+- name: Strava API v3 - Get Athlete Stats
+  x-api-slug: athletesidstats-get
+  description: Returns the activity stats of an athlete.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28739-strava.jpg
+  humanURL: ""
+  baseURL: https://www.strava.com//api/v3
+  tags: Mobile, Technology, internet, Sports, Athletes, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/athletes/master/_listings/strava/athletesidstats-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/athletes/master/_listings/strava/athletesidstats-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://storecove.api.gallery.streamdata.io

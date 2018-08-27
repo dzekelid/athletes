@@ -1,9 +1,11 @@
+---
 swagger: "2.0"
 x-collection-name: Strava
-x-complete: 1
+x-complete: 0
 info:
-  title: Strava API v3
-  description: strava-api
+  title: Strava List Athlete Routes
+  description: Returns a list of the routes created by the authenticated athlete using
+    their athlete ID.
   version: 1.0.0
 host: www.strava.com
 basePath: /api/v3
@@ -127,3 +129,17 @@ paths:
       - List
       - Athlete
       - Routes
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---

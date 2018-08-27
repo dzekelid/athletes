@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Athletes",
+	"description": "This is a repository of athletes APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/athletes.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://athletes.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Strava",
+			"x-api-slug": "strava",
+			"description": "Strava is software as a service used to track cycling, running, and swimming activity via GPS.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28739-strava.jpg",
+			"humanURL": "",
+			"baseURL": "https://www.strava.com//api/v3",
+			"tags": "Athletes",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/athletes/master/_listings/strava/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Athletes",
+	"include": [
+		{
+			"name": "Strava",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/athletes/master/_listings/strava/apis.yaml"
+		}
+	]
+}
